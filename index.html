@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CYNEX — Landing Page</title>
+  <meta name="description"
+    content="CYNEX provides professional services in Networking, Security Systems, and Website Development.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <img src="assets/icons/logo.svg" class="logo" alt="logo">
+        <span>CYNEX</span>
+      </a>
+      <button class="mobile-toggle" aria-label="Open/Close Menu">☰</button>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#work">Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-ghost" href="#contact">Get a Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero container">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Professional IT Services</span>
+        <h1>We build secure networks and modern websites.</h1>
+        <p class="lead">
+          Networking, Security, and Website Development — delivered fast and with high quality.
+          From small businesses to enterprises, CYNEX provides reliable solutions.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Start Your Project →</a>
+          <a class="btn btn-ghost" href="#work">See Our Work</a>
+        </div>
+        <div class="meta">
+          <span class="chip">⏱️ Delivery within 3–6 weeks</span>
+          <span class="chip">⭐ 4.9/5 from 200+ clients</span>
+          <span class="chip">🛡️ 100% Satisfaction Guarantee</span>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <div class="hero-card-head">
+          <div>
+            <div class="title">Project Snapshots</div>
+            <div class="sub">Last 12 Months</div>
+          </div>
+          <span class="chip">Live Preview</span>
+        </div>
+        <div class="mock">
+          <img src="assets/images/hero.jpg" alt="Network Infrastructure">
+        </div>
+        <div class="stat-grid">
+          <div class="stat">
+            <h3>$8.2M</h3>
+            <p>Revenue Impacted</p>
+          </div>
+          <div class="stat">
+            <h3>127</h3>
+            <p>Projects Delivered</p>
+          </div>
+          <div class="stat">
+            <h3>32%</h3>
+            <p>Average Conversion Growth</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <!-- Trust Logos -->
+  <section class="trust">
+    <div class="container trust-inner">
+      <span>Trusted by startups and enterprises</span>
+      <div class="logos">
+        <img class="logo" src="assets/images/logo1.png" alt="Logo 1" />
+        <img class="logo" src="assets/images/logo2.png" alt="Logo 2" />
+        <img class="logo" src="assets/images/logo3.png" alt="Logo 3" />
+        <img class="logo" src="assets/images/logo4.png" alt="Logo 4" />
+        <img class="logo" src="assets/images/logo5.png" alt="Logo 5" />
+        <img class="logo" src="assets/images/logo6.png" alt="Logo 6" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Services -->
+  <section id="services" class="section container">
+    <h2>Our Services</h2>
+    <p class="kicker">Networking, Security, and Web Development tailored to your needs.</p>
+    <div class="cards">
+      <article class="card">
+        <div class="icon">💡</div>
+        <h3>Network Installation & Maintenance</h3>
+        <p>Reliable infrastructure, secure routing, and continuous support.</p>
+        <ul class="list">
+          <li><span class="dot-ok"></span> Structured Cabling</li>
+          <li><span class="dot-ok"></span> Routing & Switching</li>
+          <li><span class="dot-ok"></span> Maintenance & Monitoring</li>
+        </ul>
+      </article>
+      <article class="card">
+        <div class="icon">🛡️</div>
+        <h3>Security Solutions</h3>
+        <p>Advanced systems to protect your data and assets.</p>
+        <ul class="list">
+          <li><span class="dot-ok"></span> CCTV & Access Control</li>
+          <li><span class="dot-ok"></span> Firewalls & VPNs</li>
+          <li><span class="dot-ok"></span> Risk Assessment</li>
+        </ul>
+      </article>
+      <article class="card">
+        <div class="icon">🌐</div>
+        <h3>Website Development</h3>
+        <p>Responsive, modern websites optimized for growth.</p>
+        <ul class="list">
+          <li><span class="dot-ok"></span> Custom Design</li>
+          <li><span class="dot-ok"></span> SEO & Performance</li>
+          <li><span class="dot-ok"></span> Scalable Platforms</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section container">
+    <h2>Recent Projects</h2>
+    <p class="kicker">Some of our latest work in networking, security, and web.</p>
+    <div class="show-grid">
+      <figure class="shot">
+        <img src="assets/images/p1.jpg" alt="Network Setup" />
+        <figcaption class="shot-caption">Corporate Office Network → +99% uptime</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/images/p2.jpg" alt="Security System" />
+        <figcaption class="shot-caption">Security System Upgrade → 100% Coverage</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/images/p3.jpg" alt="Website Development" />
+        <figcaption class="shot-caption">E-commerce Website → 2x Conversions</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section container">
+    <h2>What Our Clients Say</h2>
+    <div class="t-wrap">
+      <div class="quote">
+        <blockquote>“CYNEX set up our entire office network flawlessly. Reliable and fast support.”</blockquote>
+        <div class="q-meta">— Lina M., Growth Manager @ SaaSCo</div>
+        <div class="score" aria-label="Rating 5 stars">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+        </div>
+      </div>
+      <div class="quote">
+        <blockquote>“Our security system and website were delivered on time and exceeded expectations.”</blockquote>
+        <div class="q-meta">— Omar A., CTO @ FinTechX</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="cta-band">
+    <div class="container cta-inner">
+      <div>
+        <h2 class="cta-title">Let’s secure your business together.</h2>
+        <p class="kicker">Tell us your goals and we’ll propose the fastest path to value.</p>
+      </div>
+      <div class="cta-card">
+        <label for="email">Work Email</label>
+        <div class="field">
+          <input id="email" class="input" type="email" placeholder="you@company.com" />
+          <button class="btn btn-primary" id="proposalBtn">Send Request</button>
+        </div>
+        <div class="hint">We reply within 24h. No spam.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="container">
+    <div class="f-grid">
+      <div>
+        <div class="brand f-brand"><span class="dot"></span><span>CYNEX</span></div>
+        <p>We provide professional services in networking, security solutions, and website development.</p>
+      </div>
+      <div class="f-col">
+        <h4>Company</h4>
+        <ul class="f-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Resources</h4>
+        <ul class="f-links">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Contact</h4>
+        <ul class="f-links">
+          <li><a href="mailto:hello@cynex.com">hello@cynex.com</a></li>
+          <li><a href="#">X</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> CYNEX. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
